@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Questionnaire ITIL</title>
+		<link type='text/css' rel='stylesheet' href='stylesheet.css'/>
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans"/>
+	</head>
+	<body>
+		<h1>Questionnaire ITIL 4</h1>
+		<div id='container'>
+  			<div id='quiz'>
+
+			</div>
+			<nav>
+				Réponses <span id="answerGoodCount">0</span>/<span id="answerTotalCount">0</span> -
+				Question <span id="questionCurrent">1</span>/<span id="questionTotal">1</span>
+				<a class='button' id='start' onclick="if (confirm('Êtes vous sûr de vouloir recommencer ?')) {window.location.reload();}" href='#'>Recommencer</a>
+				<a class='button' id='next' href='#'>Suivant</a>
+			</nav>
+    	</div>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+		<script type="text/javascript" src='questions.js'></script>
+	</body>
+</html>
